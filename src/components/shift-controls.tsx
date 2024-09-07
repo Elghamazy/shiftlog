@@ -139,9 +139,6 @@ export function ShiftControls() {
           } else {
             startBreak();
           }
-        } else {
-          startShift();
-          startBreak();
         }
       } else if (action === "end") {
         if (activeShift) {
