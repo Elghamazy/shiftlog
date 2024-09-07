@@ -30,6 +30,13 @@ export default function manifest(): MetadataRoute.Manifest {
         icons: [{ src: "/start.png", sizes: "96x96" }],
       },
       {
+        name: "Break",
+        short_name: "Break",
+        description: "Log the start & end of your break",
+        url: "/?action=break",
+        icons: [{ src: "/break.png", sizes: "96x96" }],
+      },
+      {
         name: "End Shift",
         short_name: "End",
         description: "Log the end of your shift",
